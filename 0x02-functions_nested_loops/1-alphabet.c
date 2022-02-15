@@ -5,15 +5,16 @@
  * print_alphabet - prints the alphabet, in lowercase, followed by a new line
  */
 void print_alphabet(void)
-{	
-	int i;
-	
-	for (i = 97; i < 123; i++)
+{
+	char ch;
+
+	ch = 'a';
+
+	while (ch <= 'z')
 	{
-		
-		putchar (i);
-		
+		_putchar(ch);
+		ch++;
 	}
-	
-	putchar ('\n');
+
+	_putchar('\n');
 }
