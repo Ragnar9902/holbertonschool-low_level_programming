@@ -1,31 +1,29 @@
 #include <stdio.h>
 #include "main.h"
 
-void jack_bauer(void){
-	int h=0, m;
-	while(h<=23){
-		m=0;
-		while(m<=59){
-			if(h>=10){
-				if(m>=10){
-				printf("%d:%d",h,m);
-				}else{
-				printf("%d:0%d",h,m);
+/**
+ * jack_bauer - prints every minute of the day of Jack Bauer
+ * starting from 00:00 to 23:59
+ */
+void jack_bauer(void)
+{
+	int i, j;
 
-				}
-			}else{
-			if(m>=10){
-                                printf("0%d:%d",h,m);
-                                }else{
-                                printf("0%d:0%d",h,m);
+	i = 0;
 
-
-			}}
-			m++;
-
+	while (i < 24)
+	{
+		j = 0;
+		while (j < 60)
+		{
+			_putchar((i / 10) + '0');
+			_putchar((i % 10) + '0');
+			_putchar(':');
+			_putchar((j / 10) + '0');
+			_putchar((j % 10) + '0');
+			_putchar('\n');
+			j++;
 		}
-		
-		h++;	
+		i++;
 	}
-
 }
