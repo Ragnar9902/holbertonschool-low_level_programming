@@ -13,7 +13,7 @@ int main(void)
 
         i = 0;
 
-        while (i < 10)/*here is the error because i dont increment*/
+        while (i < 10) /* here is the error because i dont increment */
         {
                 putchar(i);
         }
