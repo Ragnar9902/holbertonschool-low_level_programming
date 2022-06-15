@@ -1,3 +1,0 @@
-#!/bin/bash
-echo hello jesus
-#gcc -Wall -pedantic -Werror -Wextra -std=gnu89 val.c -o val
