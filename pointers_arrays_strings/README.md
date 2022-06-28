@@ -1,37 +1,36 @@
-# 0x04. C - Pointers, arrays and strings
+# 0x05. C - More pointers, arrays and strings
 ## About
-An introductory project on:
-- pointers and how to use them
-- arrays and how to use them
-- the differences between pointers and arrays
-- How to manipulate strings
-- Scope of variables
+A follow-up project on pointers.
 ## Requirements
 - Ubuntu 14.04
 - gcc 4.8.4
+- no standard library functions
+- allowed to use [_putchar](https://github.com/holbertonschool/_putchar.c/blob/master/_putchar.c)
 ## File Descriptions
 ### Mandatory
-**[0-reset_to_98.c](0-reset_to_98.c)** - function that takes a pointer to an int as parameter and updates the value it points to to 98.
+**[0-strcat.c](0-strcat.c)** - function that concatenates two strings.
 
-**[1-swap.c](1-swap.c)** - function that swaps the values of two integers.
+**[1-strncat.c](1-strncat.c)** - function that concatenates two strings up to `n` bytes.
 
-**[2-strlen.c](2-strlen.c)** - function that returns the length of a string.
+**[2-strncpy.c](2-strncpy.c)** - function that copies a string.
 
-**[3-puts.c](3-puts.c)** - function that prints a string, followed by a new line, to stdout.
+**[3-strcmp.c](3-strcmp.c)** - function that compares two strings, like `strcmp`.
 
-**[4-print_rev.c](4-print_rev.c)** - function that prints a string, in reverse, followed by a new line.
+**[4-rev_array.c](4-rev_array.c)** - function that reverses the content of an array of integers.
 
-**[5-rev_string.c](5-rev_string.c)** - function that reverses a string.
+**[5-string_toupper.c](5-string_toupper.c)** - function that changes all lowercase letters of a string to uppercase.
 
-**[6-puts2.c](6-puts2.c)** - function that prints one char out of 2 of a string, followed by a new line.
+**[6-cap_string.c](6-cap_string.c)** - function that capitalizes all words of a string.
 
-**[7-puts_half.c](7-puts_half.c)** - function that prints half of a string, followed by a new line.
+**[7-leet.c](7-leet.c)** - function that encodes a string into [1337](https://intranet.hbtn.io/rltoken/HDZQ5imXboSDnMXO9P0-Tg).
 
-**[8-print_array.c](8-print_array.c)** - function that prints n elements of an array of integers, followed by a new line.
-
-**[9-strcpy.c](9-strcpy.c)** - function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+**[8-rot13.c](8-rot13.c)** - function that encodes a string using [rot13](https://intranet.hbtn.io/rltoken/IFaBd0QrK-h50gV7IoW9iQ).
 
 ### Advanced
-**[100-atoi.c](100-atoi.c)** - converts a string to an integer.
+**[100-print_number.c](100-print_number.c)** - function that prints an integer without:  arrays, pointers, or hard-coded special values.
 
-**[101-keygen.c](101-keygen.c)** - generates random valid passwords for the program [101-crackme](https://github.com/holbertonschool/0x04.c).
+**[101-magic.c](101-magic.c)** - Add one line to this [code](this code), so that the program prints a[2] = 98, followed by a new line.
+
+**[102-infinite_add.c](102-infinite_add.c)** - function that adds two numbers stored as strings.
+
+**[103-print_buffer.c](103-print_buffer.c)** - function that prints a buffer with special formatting.
