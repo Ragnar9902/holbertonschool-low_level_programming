@@ -1,25 +1,21 @@
-# 0x0A. C - malloc, free
+# 0x0B. C - More malloc, free
 ## About
 An introductory project on:
-- The difference between automatic and dynamic allocation
-- Why and when to use `malloc` and `free`
-- How to use `valgrind`
+- `calloc`, `realloc`, and `exit`
 ## Requirements
 - Ubuntu 14.04
 - gcc 4.8.4
 ## File Descriptions
 ### Mandatory
-**[0-create_array.c](0-create_array.c)** - function that creates an array of chars, and initializes it with a specific char.
+**[0-malloc_checked.c](0-malloc_checked.c)** - function that allocates memory using `malloc`.
 
-**[1-strdup.c](1-strdup.c)** - function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
+**[1-string_nconcat.c](1-string_nconcat.c)** - function that concatenates two strings.
 
-**[2-str_concat.c](2-str_concat.c)** - function that concatenates two strings.
+**[2-calloc.c](2-calloc.c)** - function that allocates memory for an array, using `malloc`.
 
-**[3-alloc_grid.c](3-alloc_grid.c)** - function that returns a pointer to a 2 dimensional array of integers.
-
-**[4-free_grid.c](4-free_grid.c)** - function that frees a 2 dimensional grid previously created by the function found in [3-alloc_grid.c](3-alloc_grid.c).
-
-**[5-argstostr.c](5-argstostr.c)** - function that concatenates all the arguments of the program.
+**[3-array_range.c](3-array_range.c)** - function that creates an array of integers.
 
 ### Advanced
-**[100-strtow.c](100-strtow.c)** - function that splits a string into words.
+**[100-realloc.c](100-realloc.c)** - function that reallocates a memory block using `malloc` and `free`.
+
+**[101-mul.c](101-mul.c)** - multiplies two positive numbers, stored as strings.
