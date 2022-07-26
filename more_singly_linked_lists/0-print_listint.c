@@ -11,7 +11,7 @@ size_t print_listint(struct listint_s *h)
 	struct listint_s *next = h;
 	
 	while(next != NULL)
-	{	printf("%i", next->n);
+	{	printf("%i\n", next->n);
 		next = next->next;
 		coun++;
 	}
