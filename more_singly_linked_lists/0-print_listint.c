@@ -6,7 +6,7 @@
  *Return : number of elements of the list
  */
 
-int print_listint(struct listint_s *h)
+size_t print_listint(struct listint_s *h)
 {	int coun = 0;
 	struct listint_s *next = h;
 	

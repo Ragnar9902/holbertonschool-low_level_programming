@@ -1,3 +1,5 @@
+#include <stddef.h>
+
 /**
  * struct listint_s - singly linked list
  * @n: integer
@@ -12,5 +14,5 @@ typedef struct listint_s
     struct listint_s *next;
 } listint_t;
 
-int print_listint(struct listint_s *h);
+size_t print_listint(struct listint_s *h);
 void push(struct listint_s** head_ref, int new_data);
