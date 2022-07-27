@@ -6,7 +6,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * 
+ *
  */
 typedef struct listint_s
 {
@@ -15,4 +15,4 @@ typedef struct listint_s
 } listint_t;
 
 size_t print_listint(struct listint_s *h);
-void push(struct listint_s** head_ref, int new_data);
+void push(struct listint_s **head_ref, int new_data);
