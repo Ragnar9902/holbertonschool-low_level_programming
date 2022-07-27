@@ -2,8 +2,12 @@
 #include <stdlib.h>
 
 /**
- * Given a reference (pointer to pointer) to the head of a list and
+ * push - Given a reference (pointer to pointer) to the head of a list and
  * an int, inserts a new node on the front of the list.
+ * @head_ref : pointer to the head of the list
+ * @new_data : integer to storage in the new node of the list
+ *
+ * Return : void
  */
 
 void push(struct listint_s **head_ref, int new_data)

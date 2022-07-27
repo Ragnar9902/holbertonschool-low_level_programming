@@ -3,8 +3,9 @@
 
 /**
  *print_listint - function that print a singly linked list
- *const listint_t *h - linked list
- *Return : number of elements of the list
+ *@h : pointer to node head
+ *
+ *Return: number of elements of the list size_t
  */
 
 size_t print_listint(struct listint_s *h)
